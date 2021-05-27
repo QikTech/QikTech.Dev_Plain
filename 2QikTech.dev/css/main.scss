@@ -1,0 +1,25 @@
+@import "header";
+@import "nav";
+@import "structure";
+@import "card";
+@import "button";
+@import "responsive";
+
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Sulphur Point', sans-serif;
+
+body{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+pre{
+    font-family: 'Poppins', sans-serif;
+}
+
+*{
+    scroll-behavior: smooth;
+}

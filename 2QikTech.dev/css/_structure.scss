@@ -1,0 +1,45 @@
+.content{   
+    position: absolute;
+    // background-color: blueviolet;
+    width: 100%;
+    height: 100%;
+
+    .websites{
+        position: relative;
+        margin: -5% 0% 3% 0%;
+
+        width: 80vw;
+        // height: 75vh;
+        left: 300px;
+        top: 227px;
+        // background-color: #000000;
+
+        background: #FFF1E6;
+        border-radius: 20px;
+
+        overflow-y: scroll;
+    }
+    .apps{
+        position: relative;
+        margin: 0% 0% 3% 0%;
+        width: 80vw;
+        height: 75vh;
+        left: 300px;
+        top: 227px;
+
+        background: #FAD2E1;
+        border-radius: 20px;
+    }
+    .designs{
+        position: relative;
+        margin: 3% 0% 3% 0%;
+        width: 80vw;
+        height: 75vh;
+        left: 300px;
+        top: 227px;
+
+        background: #BEE1E6;
+        border-radius: 20px;
+    }
+}
+
