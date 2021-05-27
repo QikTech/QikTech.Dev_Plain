@@ -1,0 +1,62 @@
+@media only screen and (max-width: 731px) {
+.header{
+    width: 100%;
+    height: 8%;
+    text-align: center;
+    top: 0%;
+    background-color: #fff;
+    
+    }
+
+// ######################### NAVIGATION BAR ########################
+.mobile_container{
+    .mobile_left{
+        .navigator{
+            top: auto;
+            width: 100%;
+            height: 8%;
+            margin: 0;
+            position: absolute;
+            flex-direction: row;
+            background-color: #fff;
+            position: fixed;
+            bottom: 0;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 18px;
+
+            .navigator_1{
+                background-color: #FFF1E6;
+                flex: 1;
+            }
+            .navigator_2{
+                background-color: #FAD2E1;
+                flex: 1;
+
+            }
+            .navigator_3{
+                background-color: #BEE1E6;
+                flex: 1;
+
+            }
+        }
+    }
+    
+    // flex-direction: column;
+}
+
+.navigator{
+    a{
+        text-decoration: none;
+        color: #000;
+    }
+
+    .navigator_push{
+        margin-bottom: 0%;
+    }
+}
+
+}

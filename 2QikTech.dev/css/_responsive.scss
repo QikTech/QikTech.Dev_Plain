@@ -6,21 +6,6 @@
       line-height: 27px;
   }
 
-
-    .mobile_container{
-        .navigator{
-            position: fixed;
-            top: 0%;
-            width: 5%;
-            position: absolute;
-            flex-direction: row;
-        }
-        background-color: black;
-        flex-direction: column;
-    }
-
-    
-
     .header{
         // position: sticky;
         left: 0px;
@@ -38,8 +23,9 @@
 
       .text_container_header{
         text-align: center;
+        margin: 0;
         // background-color: cadetblue;
-        margin-top: -7;
+        // margin-top: -37;
 
           .card_h{
             font-size: 28px;
@@ -51,7 +37,8 @@
             font-size: 20px;
             margin-top: -5px;
             text-align: left;
-            // margin: 0% 10%;          
+            margin-left: 5%;
+            margin-right: 5%;
             // background-color: cadetblue;
           }
       }
@@ -63,28 +50,6 @@
         line-height: 13px;      
       }
       
-      .text_container_List{
-        // background-color: cadetblue;
-        margin: 0% 10%;
-        
-          .card_h2{
-            display: flex;
-            align-self: flex-start;
-            font-size: 18px;
-            line-height: 18px;
-            margin-bottom: -2%;
-            // background-color: cadetblue;
-          }
-          .technologies_list{
-            margin-bottom: 0%;
-            li{
-              margin-left: -6%;
-              text-align: left;
-              font-size: 18px;
-              padding-left: 1em;
-            }
-          }
-      }  
 
       hr{
         width:30%;
@@ -103,7 +68,6 @@
             margin-right: auto;
             height: auto;
             width: auto;
-            border-radius: 10px;
             // background-color: black;
 
             .box_image{
@@ -114,13 +78,36 @@
             
             align-items: center;
             // background-color: saddlebrown;
-            height: auto;
+            // height: 20vh;
             width: 100vw;
             border-radius: 10px;
             bottom: 0;
             margin-left: 0;
         }
     }
+    
+    .text_container_List{
+      // background-color: cadetblue;
+      // margin: 0% 10%;
+      
+        .card_h2{
+          // font-size: 18px;
+          text-decoration: underline;
+          line-height: 20px;
+          margin-bottom: -2%;
+          text-align: center;
+          // background-color: cadetblue;
+        }
+        .technologies_list{
+          margin-bottom: 0%;
+          li{
+            margin-left: -6%;
+            text-align: left;
+            font-size: 18px;
+            padding-left: 1em;
+          }
+        }
+    }  
 
     .content{   
         .websites{
