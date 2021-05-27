@@ -1,4 +1,4 @@
-.header {
+.header_push {
   position: fixed;
   width: 122px;
   height: 36px;
@@ -56,6 +56,7 @@
   position: relative;
   margin: -5% 0% 3% 0%;
   width: 80vw;
+  height: 75vh;
   left: 300px;
   top: 227px;
   background: #FFF1E6;
@@ -266,7 +267,7 @@ button {
             flex-direction: column;
     width: 100vw;
     margin-left: 0%;
-    margin-top: 25%;
+    margin-top: 19%;
   }
   .card .img_container {
     margin-left: auto;
@@ -288,10 +289,9 @@ button {
     margin-left: 0;
   }
   .text_container_List .card_h2 {
-    text-decoration: underline;
     line-height: 20px;
     margin-bottom: -2%;
-    text-align: center;
+    text-align: left;
   }
   .text_container_List .technologies_list {
     margin-bottom: 0%;
@@ -328,12 +328,23 @@ button {
 }
 
 @media only screen and (max-width: 731px) {
-  .header {
+  .header_push {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
     width: 100%;
     height: 8%;
-    text-align: center;
     top: 0%;
-    background-color: #fff;
+    margin: 0;
+    left: 0;
+    background-color: wheat;
   }
   .mobile_container .mobile_left .navigator {
     top: auto;
@@ -348,37 +359,42 @@ button {
     background-color: #fff;
     position: fixed;
     bottom: 0;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    text-align: center;
+    font-size: 18px;
+  }
+  .mobile_container .mobile_left .navigator .navigator_push {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    font-size: 18px;
   }
   .mobile_container .mobile_left .navigator .navigator_1 {
     background-color: #FFF1E6;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    height: 100%;
   }
   .mobile_container .mobile_left .navigator .navigator_2 {
     background-color: #FAD2E1;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    height: 100%;
   }
   .mobile_container .mobile_left .navigator .navigator_3 {
     background-color: #BEE1E6;
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
+    height: 100%;
   }
   .navigator a {
     text-decoration: none;
