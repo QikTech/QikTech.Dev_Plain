@@ -1,15 +1,14 @@
 @media only screen and (max-width: 731px) {
-  hr{
-    background: #ffffff;
-
-  }
-
-
+  .text_container_button{
+    margin-right: 0;
     button{
-      min-width: 50px;
-      min-height: 30px;
+      margin-top: 15%;
+      width: 120px;
+      height: 50px;
       font-size: 16px;
   }
+  }
+    
 
     .myimg{
         margin-top: 0%;
@@ -60,7 +59,7 @@
     .card{
         height: auto;
         flex-direction: column;
-        width: 100vw;
+        width: 70vw;
         margin-left: 0%;
         margin-top: 19%;
         .img_container{
@@ -103,7 +102,7 @@
           font-size: 16px;
           height: 100%;
           width: 100%;
-          color: #FFF1E6;
+          color: #000000;
           border-radius: 10px 10px 0px 0px;
 
           background-color: #c4c4c4;
@@ -127,14 +126,14 @@
               
                 li{
                   margin-left: -7;
-                  font-weight: 200;
-
+                  font-weight: 300;
                   margin: 2px;
                   padding-right: 15px;
                   text-align: left;
                   font-size: 16px;
                   padding-left: 1em;
                   list-style-type: none;
+                  color: black;
                   background-color: #c4c4c4;
                   border-radius: 15px;
                   

@@ -3,19 +3,22 @@
     // background-color: blueviolet;
     width: 100%;
     height: 100%;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 120px;
+    overflow-y: scroll;
 
     .websites{
         position: relative;
         margin: -5% 0% 3% 0%;
-
         width: 80vw;
         height: 75vh;
         left: 300px;
         top: 227px;
-
         background: #FFF1E6;
         border-radius: 20px;
-
+        scroll-snap-type: y mandatory;
+        scroll-padding-top: 75px;
+        scroll-snap-align: start;
         overflow-y: scroll;
     }
     .apps{
@@ -25,23 +28,27 @@
         height: 75vh;
         left: 300px;
         top: 227px;
-
         background: #FAD2E1;
         border-radius: 20px;
         overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-padding-top: 75px;
+        scroll-snap-align: start;
 
     }
     .designs{
         position: relative;
-        margin: 3% 0% 3% 0%;
+        margin: 3% 0% 20% 0%;
         width: 80vw;
         height: 75vh;
         left: 300px;
         top: 227px;
-
         background: #BEE1E6;
         border-radius: 20px;
         overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-padding-top: 75px;
+        scroll-snap-align: start;
 
     }
 }
