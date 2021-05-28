@@ -73,6 +73,7 @@
   top: 227px;
   background: #FAD2E1;
   border-radius: 20px;
+  overflow-y: scroll;
 }
 
 .content .designs {
@@ -84,6 +85,7 @@
   top: 227px;
   background: #BEE1E6;
   border-radius: 20px;
+  overflow-y: scroll;
 }
 
 .website1 {
@@ -107,7 +109,7 @@
           flex: 1;
   height: 100%;
   width: 10vw;
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 .card .img_container .box_image {
@@ -215,22 +217,21 @@ button {
 }
 
 @media only screen and (max-width: 731px) {
-  button {
-    width: 144px;
-    height: 60px;
-    font-size: 16px;
-    line-height: 27px;
+  hr {
+    background: #ffffff;
   }
-  .header {
-    left: 0px;
+  button {
+    min-width: 50px;
+    min-height: 30px;
+    font-size: 16px;
   }
   .myimg {
     margin-top: 0%;
-    height: auto;
-    width: 200px;
+    height: 40vh;
+    width: 100vw;
     -o-object-fit: cover;
        object-fit: cover;
-    border-radius: 10px;
+    border-radius: 0px;
   }
   .text_container_header {
     text-align: center;
@@ -238,15 +239,17 @@ button {
   }
   .text_container_header .card_h {
     font-size: 28px;
+    margin: 0% 10%;
   }
   .text_container_header .fader {
     display: block;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 400;
+    font-size: 18px;
     margin-top: -5px;
     text-align: left;
-    margin-left: 5%;
-    margin-right: 5%;
+    width: 80vw;
+    text-align: center;
+    color: black;
   }
   .card_p {
     font-style: normal;
@@ -280,6 +283,7 @@ button {
        object-fit: cover;
   }
   .card .text_container {
+    margin-top: 5%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -288,19 +292,51 @@ button {
     bottom: 0;
     margin-left: 0;
   }
+  .text_container_List {
+    height: auto;
+    width: 80vw;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+  }
   .text_container_List .card_h2 {
-    line-height: 20px;
-    margin-bottom: -2%;
-    text-align: left;
+    margin-top: -5px;
+    text-align: center;
+    font-size: 16px;
+    height: 100%;
+    width: 100%;
+    color: #FFF1E6;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #c4c4c4;
+    z-index: 5;
   }
-  .text_container_List .technologies_list {
-    margin-bottom: 0%;
+  .text_container_List .technologies_list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style-type: none;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-bottom: -3%;
   }
-  .text_container_List .technologies_list li {
-    margin-left: -6%;
+  .text_container_List .technologies_list ul li {
+    margin-left: -7;
+    font-weight: 200;
+    margin: 2px;
+    padding-right: 15px;
     text-align: left;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 1em;
+    list-style-type: none;
+    background-color: #c4c4c4;
+    border-radius: 15px;
   }
   .content .websites {
     height: auto;
@@ -329,6 +365,7 @@ button {
 
 @media only screen and (max-width: 731px) {
   .header_push {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -344,7 +381,7 @@ button {
     top: 0%;
     margin: 0;
     left: 0;
-    background-color: wheat;
+    background-color: #FFF1E6;
   }
   .mobile_container .mobile_left .navigator {
     top: auto;

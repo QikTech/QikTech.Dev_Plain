@@ -1,5 +1,6 @@
 @media only screen and (max-width: 731px) {
     .header_push{
+        position: absolute;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -9,7 +10,8 @@
         top: 0%;
         margin: 0;
         left: 0;
-        background-color: wheat;
+        background-color: #FFF1E6;
+
 
         
     }    
@@ -41,6 +43,7 @@
                 background-color: #FFF1E6;
                 flex: 1;
                 height: 100%;
+                
             }
             .navigator_2{
                 background-color: #FAD2E1;

@@ -1,24 +1,22 @@
 @media only screen and (max-width: 731px) {
-    button{
-      width: 144px;
-      height: 60px;
-      font-size: 16px;
-      line-height: 27px;
+  hr{
+    background: #ffffff;
+
   }
 
-    .header{
-        // position: sticky;
-        left: 0px;
-        
-        
-    }
+
+    button{
+      min-width: 50px;
+      min-height: 30px;
+      font-size: 16px;
+  }
 
     .myimg{
         margin-top: 0%;
-        height: auto;
-        width: 200px;
+        height: 40vh;
+        width: 100vw;
         object-fit:cover;
-        border-radius: 10px;
+        border-radius: 0px;
       }
 
       .text_container_header{
@@ -29,16 +27,18 @@
 
           .card_h{
             font-size: 28px;
+            margin: 0% 10%;
           }
     
           .fader{
             display: block;
-            font-weight: 600;
-            font-size: 20px;
+            font-weight: 400;
+            font-size: 18px;
             margin-top: -5px;
             text-align: left;
-            margin-left: 5%;
-            margin-right: 5%;
+            width: 80vw;
+            text-align: center;
+            color: black;
             // background-color: cadetblue;
           }
       }
@@ -68,6 +68,7 @@
             margin-right: auto;
             height: auto;
             width: auto;
+            // border-radius: 0px;
             // background-color: black;
 
             .box_image{
@@ -75,7 +76,7 @@
             }
         }
         .text_container{
-            
+            margin-top: 5%;
             align-items: center;
             // background-color: saddlebrown;
             // height: 20vh;
@@ -88,24 +89,58 @@
     
     .text_container_List{
       // background-color: cadetblue;
+      height: auto;
+      width: 80vw;
+      border: 1px solid #c4c4c4;
+      border-radius: 10px;
       // margin: 0% 10%;
       
         .card_h2{
-          // font-size: 18px;
-          // text-decoration: underline;
-          line-height: 20px;
-          margin-bottom: -2%;
-          text-align: left;
-          // background-color: cadetblue;
+          // line-height: 1px;
+          margin-top: -5px;
+          // margin-left: 5px;
+          text-align: center;
+          font-size: 16px;
+          height: 100%;
+          width: 100%;
+          color: #FFF1E6;
+          border-radius: 10px 10px 0px 0px;
+
+          background-color: #c4c4c4;
+          z-index: 5;
+
         }
         .technologies_list{
-          margin-bottom: 0%;
-          li{
-            margin-left: -6%;
-            text-align: left;
-            font-size: 18px;
-            padding-left: 1em;
-          }
+          // margin-bottom: 0%;
+          // margin: 10% 0%;
+            ul{
+              display: flex;
+              list-style-type: none;
+              // align-items: flex-end;
+              justify-content: space-evenly;
+              align-items: center;
+              flex-wrap: wrap;
+              margin-top: 5%;
+              margin-right: 10%;
+              margin-bottom: -3%;
+              // background-color: #dfdfdf;
+              
+                li{
+                  margin-left: -7;
+                  font-weight: 200;
+
+                  margin: 2px;
+                  padding-right: 15px;
+                  text-align: left;
+                  font-size: 16px;
+                  padding-left: 1em;
+                  list-style-type: none;
+                  background-color: #c4c4c4;
+                  border-radius: 15px;
+                  
+                }
+            }
+          
         }
     }  
 
