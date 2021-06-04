@@ -1,23 +1,18 @@
 @media only screen and (max-width: 731px) {
   .text_container_button{
     margin-right: 0;
+    
     button{
       margin-top: 15%;
       width: 120px;
       height: 50px;
-      font-size: 16px;
+      width: 20vw;
+      height: 6vh;
+      // font-size: 16px;
+      font-size: 2.6vw;
   }
   }
     
-
-    .myimg{
-        margin-top: 0%;
-        height: 40vh;
-        width: 100vw;
-        object-fit:cover;
-        border-radius: 0px;
-      }
-
       .text_container_header{
         text-align: center;
         margin: 0;
@@ -25,14 +20,17 @@
         // margin-top: -37;
 
           .card_h{
-            font-size: 28px;
+            // font-size: 28px;
+            line-height: 8vh;
+            font-size: 5vw;
             margin: 0% 10%;
           }
     
           .fader{
             display: block;
             font-weight: 400;
-            font-size: 18px;
+            // font-size: 18px;
+            font-size: 3.2vw;
             margin-top: -5px;
             text-align: left;
             width: 80vw;
@@ -57,21 +55,27 @@
       }
 
     .card{
-        height: auto;
         flex-direction: column;
         width: 70vw;
         margin-left: 0%;
-        margin-top: 19%;
+        margin-top: 22%;
+        // background-color: black;
+        // height: 50vh;
+
         .img_container{
-            margin-left: auto;
-            margin-right: auto;
-            height: auto;
-            width: auto;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+            height: 30%;
+            width: 100vw;
             // border-radius: 0px;
-            // background-color: black;
+            border-radius: 30px;
+            background-color: black;
 
             .box_image{
-                object-fit: cover;
+                // object-fit: cover;
+            background-color: black;
+
             }
         }
         .text_container{
@@ -85,6 +89,13 @@
             margin-left: 0;
         }
     }
+    .myimg{
+        margin-top: 0%;
+        height: 25vh;
+        width: 100vw;
+        object-fit:cover;
+        border-radius: 0px;
+      }
     
     .text_container_List{
       // background-color: cadetblue;
@@ -99,17 +110,24 @@
           margin-top: -5px;
           // margin-left: 5px;
           text-align: center;
-          font-size: 16px;
-          height: 100%;
+          // font-size: 16px;
+          font-size: 2.8vw;
+          height: 30%;
           width: 100%;
           color: #000000;
           border-radius: 10px 10px 0px 0px;
-
+          // background-color: salmon;
           background-color: #c4c4c4;
           z-index: 5;
 
         }
         .technologies_list{
+          .list_left{
+            // background-color: salmon;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: left;
+        }
           // margin-bottom: 0%;
           // margin: 10% 0%;
             ul{
@@ -131,6 +149,7 @@
                   padding-right: 15px;
                   text-align: left;
                   font-size: 16px;
+                  font-size: 2.8vw;
                   padding-left: 1em;
                   list-style-type: none;
                   color: black;
@@ -143,18 +162,19 @@
         }
     }  
 
-    .content{   
+    .content{
+      height: 100vh;
+      // margin-left: -5%;
         .websites{
             height: auto;
             width: auto;
             left: auto;
             top: auto;
-            // background-color: #000000;
-    
             background: #FFF1E6;
             border-radius: 0px;
-    
             overflow-y: visible;
+            padding-top: 5%;
+            padding-bottom: 10%;
         }
         .apps{
             height: auto;
@@ -162,7 +182,6 @@
             left: auto;
             top: auto;
             border-radius: 0px;
-
         }
         .designs{
             height: auto;
@@ -170,8 +189,17 @@
             left: auto;
             top: auto;
             border-radius: 0px;
-
         }
+    }
+    hr{
+      // margin-top: 10%;
+      background:none;
+      clear:both;
+      float:none;
+      width:100%;
+      height:1px;
+      border:none;
+      margin:-1px 0;
     }
     // .website1{
     //     background-color: yellow;

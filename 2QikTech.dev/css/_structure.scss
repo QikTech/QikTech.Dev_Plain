@@ -10,10 +10,10 @@
     .websites{
         position: relative;
         margin: -5% 0% 3% 0%;
-        width: 80vw;
+        width: 75vw;
         height: 75vh;
-        left: 300px;
-        top: 227px;
+        left: 15.5vw;
+        top: 22.5vh;
         background: #FFF1E6;
         border-radius: 20px;
         scroll-snap-type: y mandatory;
@@ -24,10 +24,10 @@
     .apps{
         position: relative;
         margin: 0% 0% 3% 0%;
-        width: 80vw;
+        width: 75vw;
         height: 75vh;
-        left: 300px;
-        top: 227px;
+        left: 15.5vw;
+        top: 22.5vh;
         background: #FAD2E1;
         border-radius: 20px;
         overflow-y: scroll;
@@ -39,10 +39,13 @@
     .designs{
         position: relative;
         margin: 3% 0% 20% 0%;
-        width: 80vw;
+        // width: 80vw;
+        width: 75vw;
         height: 75vh;
-        left: 300px;
-        top: 227px;
+        // left: 300px;
+        // top: 227px;
+        left: 15.5vw;        
+        top: 22.5vh;
         background: #BEE1E6;
         border-radius: 20px;
         overflow-y: scroll;

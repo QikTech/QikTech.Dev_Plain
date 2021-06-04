@@ -59,10 +59,10 @@
 .content .websites {
   position: relative;
   margin: -5% 0% 3% 0%;
-  width: 80vw;
+  width: 75vw;
   height: 75vh;
-  left: 300px;
-  top: 227px;
+  left: 15.5vw;
+  top: 22.5vh;
   background: #FFF1E6;
   border-radius: 20px;
   -ms-scroll-snap-type: y mandatory;
@@ -75,10 +75,10 @@
 .content .apps {
   position: relative;
   margin: 0% 0% 3% 0%;
-  width: 80vw;
+  width: 75vw;
   height: 75vh;
-  left: 300px;
-  top: 227px;
+  left: 15.5vw;
+  top: 22.5vh;
   background: #FAD2E1;
   border-radius: 20px;
   overflow-y: scroll;
@@ -91,10 +91,10 @@
 .content .designs {
   position: relative;
   margin: 3% 0% 20% 0%;
-  width: 80vw;
+  width: 75vw;
   height: 75vh;
-  left: 300px;
-  top: 227px;
+  left: 15.5vw;
+  top: 22.5vh;
   background: #BEE1E6;
   border-radius: 20px;
   overflow-y: scroll;
@@ -242,28 +242,23 @@ button {
     margin-top: 15%;
     width: 120px;
     height: 50px;
-    font-size: 16px;
-  }
-  .myimg {
-    margin-top: 0%;
-    height: 40vh;
-    width: 100vw;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 0px;
+    width: 20vw;
+    height: 6vh;
+    font-size: 2.6vw;
   }
   .text_container_header {
     text-align: center;
     margin: 0;
   }
   .text_container_header .card_h {
-    font-size: 28px;
+    line-height: 8vh;
+    font-size: 5vw;
     margin: 0% 10%;
   }
   .text_container_header .fader {
     display: block;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 3.2vw;
     margin-top: -5px;
     text-align: left;
     width: 80vw;
@@ -282,24 +277,31 @@ button {
     height: 1px;
   }
   .card {
-    height: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     width: 70vw;
     margin-left: 0%;
-    margin-top: 19%;
+    margin-top: 22%;
   }
   .card .img_container {
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 30%;
+    width: 100vw;
+    border-radius: 30px;
+    background-color: black;
   }
   .card .img_container .box_image {
-    -o-object-fit: cover;
-       object-fit: cover;
+    background-color: black;
   }
   .card .text_container {
     margin-top: 5%;
@@ -311,6 +313,14 @@ button {
     bottom: 0;
     margin-left: 0;
   }
+  .myimg {
+    margin-top: 0%;
+    height: 25vh;
+    width: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 0px;
+  }
   .text_container_List {
     height: auto;
     width: 80vw;
@@ -320,13 +330,18 @@ button {
   .text_container_List .card_h2 {
     margin-top: -5px;
     text-align: center;
-    font-size: 16px;
-    height: 100%;
+    font-size: 2.8vw;
+    height: 30%;
     width: 100%;
     color: #000000;
     border-radius: 10px 10px 0px 0px;
     background-color: #c4c4c4;
     z-index: 5;
+  }
+  .text_container_List .technologies_list .list_left {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
   }
   .text_container_List .technologies_list ul {
     display: -webkit-box;
@@ -352,11 +367,15 @@ button {
     padding-right: 15px;
     text-align: left;
     font-size: 16px;
+    font-size: 2.8vw;
     padding-left: 1em;
     list-style-type: none;
     color: black;
     background-color: #c4c4c4;
     border-radius: 15px;
+  }
+  .content {
+    height: 100vh;
   }
   .content .websites {
     height: auto;
@@ -366,6 +385,8 @@ button {
     background: #FFF1E6;
     border-radius: 0px;
     overflow-y: visible;
+    padding-top: 5%;
+    padding-bottom: 10%;
   }
   .content .apps {
     height: auto;
@@ -380,6 +401,15 @@ button {
     left: auto;
     top: auto;
     border-radius: 0px;
+  }
+  hr {
+    background: none;
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 1px;
+    border: none;
+    margin: -1px 0;
   }
 }
 
@@ -465,92 +495,63 @@ button {
 }
 
 @media only screen and (max-width: 1360px) {
-  .text_container_button {
-    margin-right: 20%;
-  }
-  .text_container_button .button {
-    width: 120px;
-    height: 50px;
-  }
-  .header_push {
-    left: 30px;
-    top: 70px;
-  }
   .myimg {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-item-align: center;
-        align-self: center;
     margin-top: 0%;
-    height: 25vh;
-    width: 50vw;
-    margin-left: 10vw;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 15px;
-  }
-  .text_container_header {
-    text-align: center;
-    margin: 0;
-    margin-right: 20vw;
-  }
-  .text_container_header .card_h {
-    font-size: 28px;
-    margin: 0% 10%;
-  }
-  .text_container_header .fader {
-    display: block;
-    font-weight: 400;
-    font-size: 24px;
-    margin-top: -5px;
-    text-align: left;
-    width: 80vw;
-    text-align: center;
-    color: black;
-  }
-  .text_container_List {
-    margin-right: 20%;
-  }
-  .text_container_List .card_h2 {
-    text-align: center;
-  }
-  .text_container_List .technologies_list ul {
-    margin-top: 5%;
-  }
-  .text_container_List .technologies_list ul li {
-    padding-right: 15px;
   }
   .card {
-    height: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    width: 70vw;
     margin-left: 0%;
-    margin-top: 19%;
-    overflow-x: hidden;
+    width: auto;
+    height: 50vh;
+    margin-bottom: 10%;
   }
   .card .img_container {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
     margin-left: auto;
     margin-right: auto;
-    height: auto;
-    width: auto;
+    height: 45%;
+    width: 20vw;
+    border-radius: 0px;
   }
-  .card .img_container .box_image {
+  .card .img_container .myimg {
     -o-object-fit: cover;
        object-fit: cover;
   }
   .card .text_container {
-    margin-top: 5%;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    width: 100vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50vh;
+    width: 40vw;
     border-radius: 10px;
-    bottom: 0;
-    margin-left: 0;
+    text-align: center;
+  }
+  .card .text_container .text_container_header {
+    line-height: 6px;
+  }
+  .card .text_container .text_container_List {
+    height: 16vh;
+  }
+  .card .text_container .text_container_List .technologies_list .list_left {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+  }
+  .content {
+    width: 100vw;
+  }
+  .content .websites {
+    width: 75w;
+  }
+  .content .apps {
+    width: 75vw;
+  }
+  .content .designs {
+    width: 75vw;
   }
 }
 

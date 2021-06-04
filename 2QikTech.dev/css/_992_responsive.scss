@@ -1,101 +1,78 @@
 @media only screen and (max-width: 1360px) {
-    .text_container_button{
-        margin-right: 20%;
-        .button{
-            width: 120px;
-            height: 50px;
-        }
-
-    }
-
-    .header_push{
-        left: 30px;
-        top: 70px;
-    }
 
     .myimg{
-        display: flex;
-        align-self: center;
         margin-top: 0%;
-        height: 25vh;
-        width: 50vw;
-        margin-left: 10vw;
-        object-fit:cover;
-        border-radius: 15px;
       }
-
-      .text_container_header{
-        text-align: center;
-        margin: 0;
-        margin-right: 20vw;
-        // background-color: cadetblue;
-          .card_h{
-            font-size: 28px;
-            margin: 0% 10%;
-          }
-    
-          .fader{
-            display: block;
-            font-weight: 400;
-            font-size: 24px;
-            margin-top: -5px;
-            text-align: left;
-            width: 80vw;
-            text-align: center;
-            color: black;
-            // background-color: cadetblue;
-          }
-      }
-
-      .text_container_List{
-          margin-right: 20%;
-        .card_h2{
-          text-align: center;
-
-        }
-
-            .technologies_list{
-                ul{
-                    margin-top: 5%;
-                    // background-color: #dfdfdf;
-                    
-                    li{
-                        padding-right: 15px;
-                    }
-                }
-                
-            }
-        }
-
-
     .card{
-        height: auto;
-        flex-direction: column;
-        width: 70vw;
-        margin-left: 0%;
-        margin-top: 19%;
-        overflow-x: hidden;
-        .img_container{
+            flex-direction: column;           
+            margin-left: 0%;
+            width: auto;
+            height: 50vh;
+            margin-bottom: 10%;
+            // background-color: salmon;
+
+        .img_container{            
+            flex: 1;
             margin-left: auto;
             margin-right: auto;
-            height: auto;
-            width: auto;
-            // border-radius: 0px;
+            height: 45%;
+            width: 20vw;
+            border-radius: 0px;
             // background-color: black;
 
-            .box_image{
+            .myimg{
                 object-fit: cover;
+                // background-color: black;
+
             }
         }
         .text_container{
-            margin-top: 5%;
-            align-items: center;
-            // background-color: saddlebrown;
-            // height: 20vh;
-            width: 100vw;
+        // background-color: salmon;
+            margin-left: auto;
+            margin-right: auto;
+            height: 50vh;
+            width: 40vw;
             border-radius: 10px;
-            bottom: 0;
-            margin-left: 0;
+            text-align: center;
+
+              .text_container_header{
+                line-height: 6px;
+              }
+
+              .text_container_List{
+                height: 16vh;
+                .technologies_list{
+                  .list_left{
+                      // background-color: salmon;
+                      margin-left: auto;
+                      margin-right: auto;
+                      text-align: left;
+                  }
+                }
+              }
+
+          }
+      }
+
+      .content{
+        width: 100vw;
+        // background-color: salmon;
+
+    
+        .websites{
+            width: 75w;
+        // background-color: salmon;
+
+        }
+        .apps{
+            width: 75vw;    
+        }
+        .designs{
+            width: 75vw;
+    
         }
     }
-} 
+    
+    
+
+}
