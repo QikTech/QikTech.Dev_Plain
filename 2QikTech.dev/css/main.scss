@@ -29,17 +29,6 @@ body{
 //     background-color: blue;
 // }
 
-.content::-webkit-scrollbar {
-    width: 0.3vw;
-  }   
-  .content::-webkit-scrollbar-track {
-    // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }   
-  .content::-webkit-scrollbar-thumb {
-    // background-color: #333;
-    // outline: 1px solid slategrey;
-  }
-
   .scroller::-webkit-scrollbar {
     width: 0.3vw;
   }   
