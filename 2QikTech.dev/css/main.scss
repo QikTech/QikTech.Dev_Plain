@@ -15,8 +15,42 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;    
 }
+
+    // #CUSTOM SCROLLBAR
+// .content::-webkit-scrollbar{
+//     width: 10px;
+// }
+// .content::-webkit-scrollbar-track{
+//     background-color: black;
+// }
+// .content::-webkit-scrollbar-thumb{
+//     background-color: blue;
+// }
+
+.content::-webkit-scrollbar {
+    width: 0.3vw;
+  }   
+  .content::-webkit-scrollbar-track {
+    // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }   
+  .content::-webkit-scrollbar-thumb {
+    // background-color: #333;
+    // outline: 1px solid slategrey;
+  }
+
+  .scroller::-webkit-scrollbar {
+    width: 0.3vw;
+  }   
+  .scroller::-webkit-scrollbar-track {
+    // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }   
+  .scroller::-webkit-scrollbar-thumb {
+    // background-color: #333;
+    // outline: 1px solid slategrey;
+  }
+
 
 pre{
     font-family: 'Poppins', sans-serif;
@@ -24,4 +58,9 @@ pre{
 
 *{
     scroll-behavior: smooth;
+}
+
+.websites, .apps, .designs{
+    overflow-x: hidden;
+
 }

@@ -104,6 +104,14 @@
   scroll-snap-align: start;
 }
 
+.design_button {
+  background: #BEE1E6;
+}
+
+.app_button {
+  background: #FAD2E1;
+}
+
 .website1 {
   margin-top: 2%;
   margin-bottom: 0.1%;
@@ -214,8 +222,8 @@
 
 hr {
   width: 30%;
-  background: #000;
-  height: 1px;
+  background: white;
+  height: 0px;
 }
 
 button {
@@ -387,20 +395,30 @@ button {
     overflow-y: visible;
     padding-top: 5%;
     padding-bottom: 10%;
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
   }
   .content .apps {
     height: auto;
-    width: auto;
+    width: 100vw;
     left: auto;
     top: auto;
     border-radius: 0px;
+    padding: 12.5%;
+    -ms-scroll-snap-type: y mandatory;
+        scroll-snap-type: y mandatory;
+    scroll-padding-top: 75px;
+    scroll-snap-align: start;
   }
   .content .designs {
     height: auto;
-    width: auto;
+    width: 100vw;
     left: auto;
     top: auto;
     border-radius: 0px;
+    padding: 12.5%;
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
   }
   hr {
     background: none;
@@ -410,6 +428,20 @@ button {
     height: 1px;
     border: none;
     margin: -1px 0;
+  }
+  .design1, .app1 {
+    margin-top: -5%;
+  }
+  .app_technologies, .design_technologies {
+    border: 1px solid #000;
+  }
+  .app_technologies .card_h2, .design_technologies .card_h2 {
+    color: white;
+    background-color: #000;
+  }
+  .app_technologies .technologies_list ul li, .design_technologies .technologies_list ul li {
+    color: white;
+    background-color: #000;
   }
 }
 
@@ -553,6 +585,23 @@ button {
   .content .designs {
     width: 75vw;
   }
+  .content {
+    position: absolute;
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
+  }
+  .content .websites {
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
+  }
+  .content .apps {
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
+  }
+  .content .designs {
+    -ms-scroll-snap-type: none;
+        scroll-snap-type: none;
+  }
 }
 
 body {
@@ -564,11 +613,23 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+.content::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
+.scroller::-webkit-scrollbar {
+  width: 0.3vw;
+}
+
 pre {
   font-family: 'Poppins', sans-serif;
 }
 
 * {
   scroll-behavior: smooth;
+}
+
+.websites, .apps, .designs {
+  overflow-x: hidden;
 }
 /*# sourceMappingURL=main.css.map */

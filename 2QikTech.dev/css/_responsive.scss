@@ -175,20 +175,31 @@
             overflow-y: visible;
             padding-top: 5%;
             padding-bottom: 10%;
+            scroll-snap-type: none;
+
         }
         .apps{
             height: auto;
-            width: auto;
+            width: 100vw;
             left: auto;
             top: auto;
             border-radius: 0px;
+            // background: #FFF1E6;
+            padding: 12.5%;
+            scroll-snap-type: y mandatory;
+            scroll-padding-top: 75px;
+            scroll-snap-align: start;
         }
         .designs{
             height: auto;
-            width: auto;
+            width: 100vw;
             left: auto;
             top: auto;
             border-radius: 0px;
+            padding: 12.5%;
+            scroll-snap-type: none;
+
+
         }
     }
     hr{
@@ -213,4 +224,27 @@
 
     // }
 
+    .design1, .app1{
+      margin-top: -5%;
+    }
+   
+
+    .app_technologies, .design_technologies{
+        border: 1px solid #000;        
+          .card_h2{
+            color: white;
+            background-color: #000;
+          }
+          .technologies_list{
+            .list_left{
+          }
+              ul{                
+                  li{
+                    color: white;
+                    background-color: #000;
+                  }
+              }
+            
+          }
+}
 }

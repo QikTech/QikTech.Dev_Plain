@@ -72,6 +72,23 @@
     
         }
     }
+
+    .content{   
+      position: absolute;
+      scroll-snap-type: none;
+  
+      .websites{
+          scroll-snap-type: none;
+      }
+      .apps{
+          scroll-snap-type: none;
+  
+      }
+      .designs{
+          scroll-snap-type: none;
+  
+      }
+  }
     
     
 
