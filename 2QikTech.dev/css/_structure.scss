@@ -10,49 +10,47 @@
     .websites{
         position: relative;
         margin: -5% 0% 3% 0%;
-        width: 75vw;
-        height: 75vh;
+        width: 80vw;
+        height: 80vh;
         left: 15.5vw;
-        top: 22.5vh;
+        top: 15vh;
         background: #FFF1E6;
         border-radius: 20px;
-        scroll-snap-type: y mandatory;
-        scroll-padding-top: 75px;
-        scroll-snap-align: start;
+        // scroll-snap-type: y mandatory;
+        // scroll-padding-top: 75px;
+        // scroll-snap-align: start;
         overflow-y: scroll;
     }
     .apps{
         position: relative;
         margin: 0% 0% 3% 0%;
-        width: 75vw;
+        width: 80vw;
         height: 75vh;
         left: 15.5vw;
-        top: 22.5vh;
+        top: 15vh;
         background: #FAD2E1;
         border-radius: 20px;
         overflow-y: scroll;
-        scroll-snap-type: y mandatory;
-        scroll-padding-top: 75px;
-        scroll-snap-align: start;
-
+        // scroll-snap-type: y mandatory;
+        // scroll-padding-top: 75px;
+        // scroll-snap-align: start;
     }
     .designs{
         position: relative;
         margin: 3% 0% 20% 0%;
         // width: 80vw;
-        width: 75vw;
+        width: 80vw;
         height: 75vh;
         // left: 300px;
         // top: 227px;
-        left: 15.5vw;        
-        top: 22.5vh;
+        left: 15.5vw;
+        top: 15vh;
         background: #BEE1E6;
         border-radius: 20px;
         overflow-y: scroll;
-        scroll-snap-type: y mandatory;
-        scroll-padding-top: 75px;
-        scroll-snap-align: start;
-
+        // scroll-snap-type: y mandatory;
+        // scroll-padding-top: 75px;
+        // scroll-snap-align: start;
     }
 }
 

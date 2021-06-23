@@ -185,10 +185,8 @@
             scroll-snap-type: none;
             .card{
               margin: 12vh 0vh;
-              margin-bottom: 50%;
-              // background-color: rebeccapurple;
+              margin-bottom: 30%;
             }
-
         }
         .apps{
             height: auto;
@@ -201,6 +199,10 @@
             scroll-snap-type: y mandatory;
             scroll-padding-top: 75px;
             scroll-snap-align: start;
+            .card{
+              margin: 12vh 0vh;
+              margin-bottom: 40%;
+            }
         }
         .designs{
             height: auto;
@@ -210,8 +212,10 @@
             border-radius: 0px;
             padding: 12.5%;
             scroll-snap-type: none;
-
-
+            .card{
+              margin: 12vh 0vh;
+              margin-bottom: 45%;
+            }
         }
     }
     hr{
