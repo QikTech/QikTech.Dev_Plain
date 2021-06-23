@@ -1,255 +1,276 @@
 @media only screen and (max-width: 731px) {
-  .text_container_button{
-    margin-right: 0;
-    
-    button{
-      margin-top: 2%;
-      width: 120px;
-      height: 50px;
-      width: 80vw;
-      height: 6vh;
-      border-radius: 0px 0px 10px 10px;
-      // font-size: 16px;
-      font-size: 2.6vw;
-  }
-  }
-    
-      .text_container_header{
-        text-align: center;
-        margin: 0;
-        // background-color: cadetblue;
-        // margin-top: -37;
+  .header_push{
+    left: 15px;        
+}
 
-          .card_h{
-            // font-size: 28px;
-            line-height: 8vh;
-            font-size: 5vw;
-            margin: 0% 10%;
-          }
-    
-          .fader{
-            display: block;
-            font-weight: 400;
-            // font-size: 18px;
-            font-size: 3.2vw;
-            margin-top: -5px;
-            text-align: left;
-            width: 80vw;
-            text-align: center;
-            color: black;
-            // background-color: cadetblue;
-          }
-      }
-      
-      .card_p{
-        font-style: normal;
-        font-weight: 200;
-        font-size: 9px;
-        line-height: 13px;      
-      }
-      
+.content{    
+margin-left: 4%;
 
-      hr{
-        width:30%;
-        background: #000;
-        height: 1px;
-      }
+    .websites{
+        width: 100vw;
+        left: 20vw;
+    }
+    .apps{
+        width: 100vw;
+        left: 20vw;
+    }
+    .designs{
+        width: 100vw;
+        left: 20vw;
+    }
+}
 
-    .card{
-      
-        flex-direction: column;
-        width: 70vw;
-        margin-left: 0%;
-        margin-top: 22%;
-        margin-bottom: 40%;
-        // background-color: black;
-        // height: 50vh;
 
-        .img_container{
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 30%;
-          width: 100vw;
-          // border-radius: 0px;
-          border-radius: 0px;
-          // background-color: black;
+.text_container_button{
+  margin-right: 0;
+  
+  button{
+    margin-top: 2%;
+    width: 120px;
+    height: 50px;
+    width: 80vw;
+    height: 6vh;
+    border-radius: 0px 0px 10px 10px;
+    // font-size: 16px;
+    font-size: 2.6vw;
+}
+}
+  
+    .text_container_header{
+      text-align: center;
+      margin: 0;
+      // background-color: cadetblue;
+      // margin-top: -37;
 
-          .box_image{
-              object-fit: cover;
-            // background-color: black;
-
-            }
+        .card_h{
+          // font-size: 28px;
+          line-height: 8vh;
+          font-size: 5vw;
+          margin: 0% 10%;
         }
-        .text_container{
-            margin-top: 10vh;
-            align-items: center;
-            // height: 20vh;
-            width: 100vw;
-            border-radius: 10px;
-            bottom: 0;
-            margin-left: 0;
+  
+        .fader{
+          display: block;
+          font-weight: 400;
+          // font-size: 18px;
+          font-size: 3.2vw;
+          margin-top: -5px;
+          text-align: left;
+          width: 80vw;
+          text-align: center;
+          color: black;
+          // background-color: cadetblue;
         }
     }
-    .myimg{
-        margin-top: 0%;
-        height: auto;
+    
+    .card_p{
+      font-style: normal;
+      font-weight: 200;
+      font-size: 9px;
+      line-height: 13px;      
+    }
+    
+
+    hr{
+      width:30%;
+      background: #000;
+      height: 1px;
+    }
+
+  .card{
+    
+      flex-direction: column;
+      width: 70vw;
+      margin-left: 0%;
+      margin-top: 22%;
+      margin-bottom: 40%;
+      // background-color: black;
+      // height: 50vh;
+
+      .img_container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 30%;
         width: 100vw;
-        object-fit:cover;
+        // border-radius: 0px;
         border-radius: 0px;
-        background-color: black;
+        // background-color: black;
+
+        .box_image{
+            object-fit: cover;
+          // background-color: black;
+
+          }
+      }
+      .text_container{
+          margin-top: 10vh;
+          align-items: center;
+          // height: 20vh;
+          width: 100vw;
+          border-radius: 10px;
+          bottom: 0;
+          margin-left: 0;
+      }
+  }
+  .myimg{
+      margin-top: 0%;
+      height: auto;
+      width: 100vw;
+      object-fit:cover;
+      border-radius: 0px;
+      background-color: black;
+
+    }
+  
+  .text_container_List{
+    // background-color: cadetblue;
+    height: auto;
+    width: 80vw;
+    border: 1px solid #c4c4c4;
+    border-radius: 20px 20px 0px 0px;
+      .card_h2{
+        margin-left: -1px;
+        // line-height: 1px;
+        margin-top: -5px;
+        // margin-left: 5px;
+        text-align: center;
+        // font-size: 16px;
+        font-size: 2.8vw;
+        height: 30%;
+        width: 100%;
+        color: #000000;
+        border-radius: 10px 10px 0px 0px;
+        border: 1px solid #c4c4c4;
+
+        // background-color: salmon;
+        background-color: #c4c4c4;
+        z-index: 5;
 
       }
-    
-    .text_container_List{
-      // background-color: cadetblue;
-      height: auto;
-      width: 80vw;
-      border: 1px solid #c4c4c4;
-      border-radius: 20px 20px 0px 0px;
-        .card_h2{
-          margin-left: -1px;
-          // line-height: 1px;
-          margin-top: -5px;
-          // margin-left: 5px;
-          text-align: center;
-          // font-size: 16px;
-          font-size: 2.8vw;
-          height: 30%;
-          width: 100%;
-          color: #000000;
-          border-radius: 10px 10px 0px 0px;
-          border: 1px solid #c4c4c4;
-
+      .technologies_list{
+        .list_left{
           // background-color: salmon;
-          background-color: #c4c4c4;
-          z-index: 5;
+          margin-left: auto;
+          margin-right: auto;
+          text-align: left;
+      }
+        // margin-bottom: 0%;
+        // margin: 10% 0%;
+          ul{
+            display: flex;
+            list-style-type: none;
+            // align-items: flex-end;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 5%;
+            margin-right: 10%;
+            margin-bottom: -3%;
+            // background-color: #dfdfdf;
+            
+              li{
+                margin-left: -7;
+                font-weight: 300;
+                margin: 2px;
+                padding-right: 15px;
+                text-align: left;
+                font-size: 16px;
+                font-size: 2.8vw;
+                padding-left: 1em;
+                list-style-type: none;
+                color: black;
+                background-color: #c4c4c4;
+                border-radius: 15px;
+                
+              }
+          }
+        
+      }
+  }  
 
+  .content{
+    height: 100vh;
+    width: 100vw;
+    // margin-left: -5%;
+    
+      .websites{
+        margin-top: 5vh;
+          height: auto;
+          width: 100vw;
+
+          left: auto;
+          top: auto;
+          background: #FFF1E6;
+          border-radius: 0px;
+          overflow-y: visible;
+          padding-top: 5%;
+          padding-bottom: 10%;
+          scroll-snap-type: none;
+          .card{
+            margin: 12vh 0vh;
+            margin-bottom: 30%;
+          }
+      }
+      .apps{
+          height: auto;
+          width: 100vw;
+          left: auto;
+          top: auto;
+          border-radius: 0px;
+          // background: #FFF1E6;
+          padding: 12.5%;
+          .card{
+            margin: 12vh 0vh;
+            margin-bottom: 40%;
+          }
+      }
+      .designs{
+          height: auto;
+          width: 100vw;
+          left: auto;
+          top: auto;
+          border-radius: 0px;
+          padding: 12.5%;
+          scroll-snap-type: none;
+          .card{
+            margin: 12vh 0vh;
+            margin-bottom: 45%;
+          }
+      }
+  }
+  hr{
+    // margin-top: 10%;
+    background:none;
+    clear:both;
+    float:none;
+    width:100%;
+    height:1px;
+    border:none;
+    margin:-1px 0;
+  }
+
+  .design1, .app1{
+    margin-top: -5%;
+  }
+ 
+
+  .app_technologies, .design_technologies{
+      border: 1px solid #000;        
+        .card_h2{
+          color: white;
+          background-color: #000;
         }
         .technologies_list{
           .list_left{
-            // background-color: salmon;
-            margin-left: auto;
-            margin-right: auto;
-            text-align: left;
         }
-          // margin-bottom: 0%;
-          // margin: 10% 0%;
-            ul{
-              display: flex;
-              list-style-type: none;
-              // align-items: flex-end;
-              justify-content: space-evenly;
-              align-items: center;
-              flex-wrap: wrap;
-              margin-top: 5%;
-              margin-right: 10%;
-              margin-bottom: -3%;
-              // background-color: #dfdfdf;
-              
+            ul{                
                 li{
-                  margin-left: -7;
-                  font-weight: 300;
-                  margin: 2px;
-                  padding-right: 15px;
-                  text-align: left;
-                  font-size: 16px;
-                  font-size: 2.8vw;
-                  padding-left: 1em;
-                  list-style-type: none;
-                  color: black;
-                  background-color: #c4c4c4;
-                  border-radius: 15px;
-                  
+                  color: white;
+                  background-color: #000;
                 }
             }
           
         }
-    }  
-
-    .content{
-      height: 100vh;
-      // margin-left: -5%;
-      
-        .websites{
-          margin-top: 5vh;
-            height: auto;
-            width: auto;
-            left: auto;
-            top: auto;
-            background: #FFF1E6;
-            border-radius: 0px;
-            overflow-y: visible;
-            padding-top: 5%;
-            padding-bottom: 10%;
-            scroll-snap-type: none;
-            .card{
-              margin: 12vh 0vh;
-              margin-bottom: 30%;
-            }
-        }
-        .apps{
-            height: auto;
-            width: 100vw;
-            left: auto;
-            top: auto;
-            border-radius: 0px;
-            // background: #FFF1E6;
-            padding: 12.5%;
-            scroll-snap-type: y mandatory;
-            scroll-padding-top: 75px;
-            scroll-snap-align: start;
-            .card{
-              margin: 12vh 0vh;
-              margin-bottom: 40%;
-            }
-        }
-        .designs{
-            height: auto;
-            width: 100vw;
-            left: auto;
-            top: auto;
-            border-radius: 0px;
-            padding: 12.5%;
-            scroll-snap-type: none;
-            .card{
-              margin: 12vh 0vh;
-              margin-bottom: 45%;
-            }
-        }
-    }
-    hr{
-      // margin-top: 10%;
-      background:none;
-      clear:both;
-      float:none;
-      width:100%;
-      height:1px;
-      border:none;
-      margin:-1px 0;
-    }
-
-    .design1, .app1{
-      margin-top: -5%;
-    }
-   
-
-    .app_technologies, .design_technologies{
-        border: 1px solid #000;        
-          .card_h2{
-            color: white;
-            background-color: #000;
-          }
-          .technologies_list{
-            .list_left{
-          }
-              ul{                
-                  li{
-                    color: white;
-                    background-color: #000;
-                  }
-              }
-            
-          }
 }
 }

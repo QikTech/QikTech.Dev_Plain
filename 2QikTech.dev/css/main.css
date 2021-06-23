@@ -251,6 +251,24 @@ button {
 }
 
 @media only screen and (max-width: 731px) {
+  .header_push {
+    left: 15px;
+  }
+  .content {
+    margin-left: 4%;
+  }
+  .content .websites {
+    width: 100vw;
+    left: 20vw;
+  }
+  .content .apps {
+    width: 100vw;
+    left: 20vw;
+  }
+  .content .designs {
+    width: 100vw;
+    left: 20vw;
+  }
   .text_container_button {
     margin-right: 0;
   }
@@ -397,11 +415,12 @@ button {
   }
   .content {
     height: 100vh;
+    width: 100vw;
   }
   .content .websites {
     margin-top: 5vh;
     height: auto;
-    width: auto;
+    width: 100vw;
     left: auto;
     top: auto;
     background: #FFF1E6;
@@ -423,10 +442,6 @@ button {
     top: auto;
     border-radius: 0px;
     padding: 12.5%;
-    -ms-scroll-snap-type: y mandatory;
-        scroll-snap-type: y mandatory;
-    scroll-padding-top: 75px;
-    scroll-snap-align: start;
   }
   .content .apps .card {
     margin: 12vh 0vh;
@@ -552,7 +567,10 @@ button {
   }
 }
 
-@media only screen and (max-width: 1360px) {
+@media only screen and (min-width: 1360px) {
+  .header_push {
+    left: 15px;
+  }
   .content {
     margin-left: 4%;
   }
