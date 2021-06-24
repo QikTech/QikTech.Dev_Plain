@@ -1,10 +1,10 @@
 @media only screen and (max-width: 731px) {
   .header_push{
-    left: 15px;        
+    // left: 15px;    
 }
 
 .content{    
-margin-left: 4%;
+// margin-left: 4%;
 
     .websites{
         width: 100vw;
@@ -33,33 +33,31 @@ margin-left: 4%;
     border-radius: 0px 0px 10px 10px;
     // font-size: 16px;
     font-size: 2.6vw;
-}
+  }
 }
   
-    .text_container_header{
-      text-align: center;
-      margin: 0;
-      // background-color: cadetblue;
-      // margin-top: -37;
+    .text_container_header{  
+      margin-bottom: 4%;
 
         .card_h{
+
           // font-size: 28px;
           line-height: 8vh;
           font-size: 5vw;
           margin: 0% 10%;
+          text-align: center;
+
         }
   
         .fader{
-          display: block;
           font-weight: 400;
           // font-size: 18px;
           font-size: 3.2vw;
           margin-top: -5px;
-          text-align: left;
           width: 80vw;
-          text-align: center;
           color: black;
-          // background-color: cadetblue;
+          background-color: cadetblue;
+
         }
     }
     
@@ -77,12 +75,11 @@ margin-left: 4%;
       height: 1px;
     }
 
-  .card{
-    
+  .card{  
       flex-direction: column;
-      width: 70vw;
+      width: 100vw;
       margin-left: 0%;
-      margin-top: 22%;
+      // margin-top: 22%;
       margin-bottom: 40%;
       // background-color: black;
       // height: 50vh;
@@ -91,9 +88,9 @@ margin-left: 4%;
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 30%;
+        // height: 30%;
+        height: auto;
         width: 100vw;
-        // border-radius: 0px;
         border-radius: 0px;
         // background-color: black;
 
@@ -104,13 +101,15 @@ margin-left: 4%;
           }
       }
       .text_container{
-          margin-top: 10vh;
+          margin-top: 0vh;
           align-items: center;
           // height: 20vh;
           width: 100vw;
           border-radius: 10px;
           bottom: 0;
           margin-left: 0;
+          // background-color: black;
+
       }
   }
   .myimg{
@@ -119,33 +118,29 @@ margin-left: 4%;
       width: 100vw;
       object-fit:cover;
       border-radius: 0px;
-      background-color: black;
-
+      // background-color: black;
     }
   
   .text_container_List{
     // background-color: cadetblue;
     height: auto;
-    width: 80vw;
+    width: 80%;
     border: 1px solid #c4c4c4;
     border-radius: 20px 20px 0px 0px;
       .card_h2{
         margin-left: -1px;
-        // line-height: 1px;
         margin-top: -5px;
-        // margin-left: 5px;
         text-align: center;
-        // font-size: 16px;
         font-size: 2.8vw;
-        height: 30%;
+        height: 50%;
         width: 100%;
         color: #000000;
         border-radius: 10px 10px 0px 0px;
         border: 1px solid #c4c4c4;
-
-        // background-color: salmon;
         background-color: #c4c4c4;
         z-index: 5;
+
+        margin-top: 2%;
 
       }
       .technologies_list{
@@ -190,12 +185,12 @@ margin-left: 4%;
   }  
 
   .content{
-    height: 100vh;
+    height: auto;
     width: 100vw;
     // margin-left: -5%;
     
       .websites{
-        margin-top: 5vh;
+        margin-top: 0vh;
           height: auto;
           width: 100vw;
 
@@ -205,7 +200,7 @@ margin-left: 4%;
           border-radius: 0px;
           overflow-y: visible;
           padding-top: 5%;
-          padding-bottom: 10%;
+          padding-bottom: 5%;
           scroll-snap-type: none;
           .card{
             margin: 12vh 0vh;

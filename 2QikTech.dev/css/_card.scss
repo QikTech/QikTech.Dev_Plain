@@ -1,12 +1,9 @@
-
     .website1{
         margin-top: 2%;
         margin-bottom: 0.1%;
         
     }
     .card{
-      scroll-snap-align: start;
-        
         display: flex;
         // margin: 3%;
         margin-left: 6%;
@@ -32,7 +29,7 @@
         .text_container{            
             display: flex;
             flex-direction: column;
-            align-items: flex-start;
+            align-items: center;
             flex: 2;
             justify-content: space-evenly;
             justify-content: flex-end;
@@ -45,12 +42,34 @@
             // margin-top: 4%;
 
             .text_container_header{
+              text-align: center;
+              align-items: center;
+              justify-content: center;
               display: flex;
               flex-wrap: wrap;
             }
+            .text_container_List{
+              height: auto;
+              width: 80%;
+              border: 1px solid #c4c4c4;
+              border-radius: 20px 20px 0px 0px;
+              
+                .card_h2{
+                  margin-top: 0%;
+                  margin-left: -1px;
+                  text-align: center;
+                  padding-top: 2%;
+                  padding-bottom: 2%;
+                  width: auto;
+                  color: #000000;
+                  border-radius: 20px 20px 0px 0px;
+                  border: 1px solid #c4c4c4;
+                  z-index: 5;
+                // background-color: cadetblue;
+                }
+              }
         }
     }
-
 
     .myimg{
         margin-top: 15%;
@@ -65,8 +84,8 @@
         font-style: normal;
         font-weight: 600;
         // font-size: 36px;
-        font-size: 1.7vw;
-        line-height: 54px;
+        font-size: 2.2vw;
+        line-height: 0px;
         display: inline;
 
       }
@@ -76,8 +95,9 @@
         font-weight: normal;
         // font-size: 24px;
         font-size: 1.1vw;
-        line-height: 36px;
+        line-height: 6px;
         margin-bottom: -2%;
+        margin-top: 2%;
       }
 
       .card_p{
@@ -94,20 +114,38 @@
         font-size: 1.7vw;
         color: #696969;
         flex-wrap: wrap;
+        line-height: 0px;
 
       }
 
       .technologies_list{
         display: flex;
+        justify-content: center;
+        margin-top: 3%;
         margin-bottom: 7%;
         margin-left: -2.5%;
         color: #000;
+        ul{
+          display: flex;
+          list-style-type: none;
+          // align-items: flex-end;
+          justify-content: space-evenly;
+          align-items: center;
+          flex-wrap: wrap;
+          margin-bottom: -3%;
 
         li{
+          list-style-type: none;
+          padding-right: 1em;          
           font-weight: 300;
           font-size: 0.8vw;
           padding-left: 1em;
+          background-color: #c4c4c4;
+          border-radius: 15px;
+          margin: 2px;
+
         }
+      }
       }
 
       hr{
