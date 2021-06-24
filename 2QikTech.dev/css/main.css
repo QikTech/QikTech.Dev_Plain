@@ -475,8 +475,7 @@ button {
         scroll-snap-type: none;
   }
   .content .websites .card {
-    margin: 12vh 0vh;
-    margin-bottom: 30%;
+    margin: 8vh 0vh 1vh 0vh;
   }
   .content .apps {
     height: auto;
@@ -484,11 +483,9 @@ button {
     left: auto;
     top: auto;
     border-radius: 0px;
-    padding: 12.5%;
   }
   .content .apps .card {
-    margin: 12vh 0vh;
-    margin-bottom: 40%;
+    margin: 8vh 0vh 1vh 0vh;
   }
   .content .designs {
     height: auto;
@@ -496,13 +493,11 @@ button {
     left: auto;
     top: auto;
     border-radius: 0px;
-    padding: 12.5%;
     -ms-scroll-snap-type: none;
         scroll-snap-type: none;
   }
   .content .designs .card {
-    margin: 12vh 0vh;
-    margin-bottom: 45%;
+    margin: 8vh 0vh 1vh 0vh;
   }
   hr {
     background: none;

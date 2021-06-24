@@ -139,7 +139,6 @@
         border: 1px solid #c4c4c4;
         background-color: #c4c4c4;
         z-index: 5;
-
         margin-top: 2%;
 
       }
@@ -203,8 +202,8 @@
           padding-bottom: 5%;
           scroll-snap-type: none;
           .card{
-            margin: 12vh 0vh;
-            margin-bottom: 30%;
+            margin: 8vh 0vh 1vh 0vh;
+            // margin-bottom: 30%;
           }
       }
       .apps{
@@ -213,11 +212,9 @@
           left: auto;
           top: auto;
           border-radius: 0px;
-          // background: #FFF1E6;
-          padding: 12.5%;
           .card{
-            margin: 12vh 0vh;
-            margin-bottom: 40%;
+            margin: 8vh 0vh 1vh 0vh;
+
           }
       }
       .designs{
@@ -226,11 +223,10 @@
           left: auto;
           top: auto;
           border-radius: 0px;
-          padding: 12.5%;
           scroll-snap-type: none;
           .card{
-            margin: 12vh 0vh;
-            margin-bottom: 45%;
+            margin: 8vh 0vh 1vh 0vh;
+
           }
       }
   }
