@@ -679,8 +679,8 @@ button {
 }
 
 .content {
-  background: -webkit-gradient(linear, left top, right top, color-stop(31.77%, #FFF1E6), color-stop(52.6%, #FAD2E1), to(#BEE1E6));
-  background: linear-gradient(90deg, #FFF1E6 31.77%, #FAD2E1 52.6%, #BEE1E6 100%);
+  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(15.1%, #FFF1E6), color-stop(64.06%, #FAD2E1), to(#BEE1E6));
+  background: linear-gradient(90deg, #FFFFFF 0%, #FFF1E6 15.1%, #FAD2E1 64.06%, #BEE1E6 100%);
 }
 
 .card {
