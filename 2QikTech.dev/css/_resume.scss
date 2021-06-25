@@ -1,0 +1,81 @@
+.linkks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    width: 40%;
+    // background-color: forestgreen;
+
+    position: fixed;
+    top: 80vh;
+    left: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.dp{
+    // background-color: forestgreen;
+
+}
+
+.pp{
+    // background-color: floralwhite;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 4%;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 20vw;
+    // width: 50%;
+    // background-color: forestgreen;
+    .skil{
+        text-align: center;
+        border: 1px solid #000;
+        border-radius: 6px;
+        margin: 3%;
+        padding: 1%;
+    }
+}
+
+
+.intro{
+    height: 15vh;
+    width: 50%;
+    // background-color: aquamarine;
+}
+.intro_contact{
+    height: 15vh;
+    width: 50%;
+    // background-color: aquamarine;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 3.8%;
+}
+
+.resume_wrapper{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    .left{
+        // background-color: fuchsia;
+        flex: 1;
+    }
+    .right{
+        // background-color: firebrick;
+        flex: 1;
+    }
+}
+
+
+

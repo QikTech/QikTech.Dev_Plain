@@ -22,13 +22,16 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   margin-left: 4%;
+  height: 55vh;
   font-family: Poppins;
   font-style: normal;
   font-weight: 300;
   font-size: 24px;
   line-height: 36px;
-  /* identical to box height */
   position: fixed;
   top: 40%;
   width: 10vw;
@@ -43,6 +46,19 @@
 
 .navigator .navigator_push {
   margin-bottom: 25%;
+}
+
+.contact {
+  margin-top: auto;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.resume {
+  margin: 0;
+  margin-left: 5%;
 }
 
 .content {
@@ -679,8 +695,7 @@ button {
 }
 
 .content {
-  background: -webkit-gradient(linear, left top, right top, from(#FFFFFF), color-stop(15.1%, #FFF1E6), color-stop(64.06%, #FAD2E1), to(#BEE1E6));
-  background: linear-gradient(90deg, #FFFFFF 0%, #FFF1E6 15.1%, #FAD2E1 64.06%, #BEE1E6 100%);
+  background-color: #BEE1E6;
 }
 
 .card {
@@ -689,6 +704,99 @@ button {
 
 .websites, .apps, .designs {
   z-index: 6;
+}
+
+.linkks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer {
+  width: 40%;
+  position: fixed;
+  top: 80vh;
+  left: 30vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.pp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 4%;
+}
+
+.skills {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  width: 20vw;
+}
+
+.skills .skil {
+  text-align: center;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin: 3%;
+  padding: 1%;
+}
+
+.intro {
+  height: 15vh;
+  width: 50%;
+}
+
+.intro_contact {
+  height: 15vh;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 3.8%;
+}
+
+.resume_wrapper {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.resume_wrapper .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.resume_wrapper .right {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
 body {

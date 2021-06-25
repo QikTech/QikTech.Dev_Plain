@@ -1,31 +1,37 @@
 .navigator{
     display: flex;
     flex-direction: column;
+    align-items: stretch;
     margin-left: 4%;
+    height: 55vh;
 
     font-family: Poppins;
     font-style: normal;
     font-weight: 300;
     font-size: 24px;
     line-height: 36px;
-    /* identical to box height */
-    // background-color: #000000;
+    // background-color: #444;
 
     position: fixed;
     top: 40%;
     width: 10vw;
     z-index: 3;
-
-
     color: #000000;
-    
     a{
         text-decoration: none;
         color: #000;
     }
-
     .navigator_push{
         margin-bottom: 25%;
     }
 }
+.contact{
+    margin-top: auto;
+    flex-direction: row;
+}
 
+.resume{
+    margin: 0;
+    margin-left: 5%;
+    // text-align: center;
+}
