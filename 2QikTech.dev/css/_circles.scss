@@ -1,11 +1,43 @@
 .circle{
-    width: 20rem;
-    height: 20rem;
+    width: 9rem;
+    height: 9rem;
     border-radius: 50%;
     position: fixed;
     z-index: 5;
-    background-color: rebeccapurple;
-    left: 60%;
+    background-color: #FFF1E6;
+    right: 2%;
+    top: 40%;
+}
+.circle4{
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;
+    background-color: #FFF1E6;
+    right: 30%;
+    top: 20%;
+}
+.circle2{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;
+    background-color: #BEE1E6;
+    right: 2%;
+    bottom: 10%;
+    right: 40%;
+}
+.circle3{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;
+    background-color: #FAD2E1;
+    left: 18%;
+    top: 2%;
 }
 
     .content{
@@ -20,7 +52,7 @@
         // background-color: salmon;
 
     }
-    .websites{
+    .websites, .apps, .designs{
         z-index: 6;
 
     }

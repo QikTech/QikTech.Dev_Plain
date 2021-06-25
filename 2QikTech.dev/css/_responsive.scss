@@ -75,7 +75,7 @@
       height: 1px;
     }
 
-  .card{  
+  .card{
       flex-direction: column;
       width: 100vw;
       margin-left: 0%;
@@ -195,7 +195,7 @@
 
           left: auto;
           top: auto;
-          background: #FFF1E6;
+          // background: #FFF1E6;
           border-radius: 0px;
           overflow-y: visible;
           padding-top: 5%;
@@ -212,6 +212,7 @@
           left: auto;
           top: auto;
           border-radius: 0px;
+          border: none;
           .card{
             margin: 8vh 0vh 1vh 0vh;
 
@@ -223,6 +224,7 @@
           left: auto;
           top: auto;
           border-radius: 0px;
+          border: none;
           scroll-snap-type: none;
           .card{
             margin: 8vh 0vh 1vh 0vh;
@@ -265,4 +267,10 @@
         }
 }
 
+// .app_button_color{
+//   background: #FAD2E1;
+// }
+// .design_button_color{
+//   background: #BEE1E6;
+// }
 }

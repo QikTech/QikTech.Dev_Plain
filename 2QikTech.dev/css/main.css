@@ -62,10 +62,11 @@
   height: 80vh;
   left: 15.5vw;
   top: 15vh;
-  background: linear-gradient(80.7deg, rgba(255, 255, 255, 0.6) 3.48%, rgba(255, 255, 255, 0.3) 100%);
-  -webkit-backdrop-filter: blur(80px);
-          backdrop-filter: blur(80px);
-  /* Note: backdrop-filter has minimal browser support */
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 241, 230, 0.18)), to(rgba(255, 241, 230, 0.18)));
+  background: linear-gradient(90deg, rgba(255, 241, 230, 0.18) 0%, rgba(255, 241, 230, 0.18) 100%);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border: 0.5px solid #FFFFFF;
   border-radius: 20px;
   overflow-y: scroll;
 }
@@ -78,6 +79,9 @@
   left: 15.5vw;
   top: 15vh;
   background: linear-gradient(80.7deg, rgba(250, 210, 225, 0.6) 3.48%, rgba(250, 210, 225, 0.3) 100%);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border: 0.5px solid #FFFFFF;
   border-radius: 20px;
   overflow-y: scroll;
 }
@@ -92,6 +96,7 @@
   background: linear-gradient(80.7deg, rgba(190, 225, 230, 0.6) 3.48%, rgba(190, 225, 230, 0.3) 100%);
   -webkit-backdrop-filter: blur(20px);
           backdrop-filter: blur(20px);
+  border: 0.5px solid #FFFFFF;
   border-radius: 20px;
   overflow-y: scroll;
 }
@@ -102,14 +107,6 @@
 
 .app_button {
   background: #FAD2E1;
-}
-
-.app_button_color {
-  background: #FAD2E1;
-}
-
-.design_button_color {
-  background: #BEE1E6;
 }
 
 .website1 {
@@ -192,12 +189,14 @@
 .card .text_container .text_container_List {
   height: auto;
   width: 80%;
-  border: 1px solid #c4c4c4;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 241, 230, 0.18)), to(rgba(255, 241, 230, 0.18)));
+  background: linear-gradient(90deg, rgba(255, 241, 230, 0.18) 0%, rgba(255, 241, 230, 0.18) 100%);
+  border: 0.5px solid #c4c4c4;
   border-radius: 20px 20px 0px 0px;
 }
 
 .card .text_container .text_container_List .card_h2 {
-  margin-top: 0%;
+  margin-top: -0.1%;
   margin-left: -1px;
   text-align: center;
   padding-top: 2%;
@@ -299,19 +298,20 @@ hr {
 }
 
 button {
-  width: 9vw;
-  height: 6vh;
+  width: 35.5vw;
+  height: 5vh;
   text-decoration: none;
   border: none;
-  border-radius: 20px;
-  background-color: #FFF1E6;
+  border-radius: 0px 0px 10px 10px;
+  margin-top: 2%;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 241, 230, 0.18)), to(rgba(255, 241, 230, 0.18)));
+  background: linear-gradient(90deg, rgba(255, 241, 230, 0.18) 0%, rgba(255, 241, 230, 0.18) 100%);
+  border: 0.5px solid #c4c4c4;
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 0.8vw;
   line-height: 27px;
-  -webkit-filter: drop-shadow(0px 0px 4px #00000040);
-          filter: drop-shadow(0px 0px 4px #00000040);
 }
 
 @media only screen and (max-width: 731px) {
@@ -478,7 +478,6 @@ button {
     width: 100vw;
     left: auto;
     top: auto;
-    background: #FFF1E6;
     border-radius: 0px;
     overflow-y: visible;
     padding-top: 5%;
@@ -495,6 +494,7 @@ button {
     left: auto;
     top: auto;
     border-radius: 0px;
+    border: none;
   }
   .content .apps .card {
     margin: 8vh 0vh 1vh 0vh;
@@ -505,6 +505,7 @@ button {
     left: auto;
     top: auto;
     border-radius: 0px;
+    border: none;
     -ms-scroll-snap-type: none;
         scroll-snap-type: none;
   }
@@ -538,6 +539,7 @@ button {
 
 @media only screen and (max-width: 731px) {
   .header_push {
+    z-index: 10;
     position: fixed;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -554,9 +556,10 @@ button {
     top: 0%;
     margin: 0;
     left: 0;
-    background-color: #FFF1E6;
-    -webkit-filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2));
-            filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2));
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 241, 230, 0.6)), to(rgba(255, 241, 230, 0.4)));
+    background: linear-gradient(90deg, rgba(255, 241, 230, 0.6) 0%, rgba(255, 241, 230, 0.4) 100%);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
   }
   .mobile_container .mobile_left .navigator {
     top: auto;
@@ -589,6 +592,10 @@ button {
   }
   .mobile_container .mobile_left .navigator .navigator_1 {
     background-color: #FFF1E6;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(255, 241, 230, 0.6)), to(rgba(255, 241, 230, 0.4)));
+    background: linear-gradient(90deg, rgba(255, 241, 230, 0.6) 0%, rgba(255, 241, 230, 0.4) 100%);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -596,6 +603,9 @@ button {
   }
   .mobile_container .mobile_left .navigator .navigator_2 {
     background-color: #FAD2E1;
+    background: linear-gradient(80.7deg, rgba(250, 210, 225, 0.6) 3.48%, rgba(250, 210, 225, 0.3) 100%);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
@@ -603,10 +613,16 @@ button {
   }
   .mobile_container .mobile_left .navigator .navigator_3 {
     background-color: #BEE1E6;
+    background: linear-gradient(80.7deg, rgba(190, 225, 230, 0.6) 3.48%, rgba(190, 225, 230, 0.3) 100%);
+    -webkit-backdrop-filter: blur(100px);
+            backdrop-filter: blur(100px);
     -webkit-box-flex: 1;
         -ms-flex: 1;
             flex: 1;
     height: 100%;
+  }
+  .navigator {
+    z-index: 10;
   }
   .navigator a {
     text-decoration: none;
@@ -618,13 +634,48 @@ button {
 }
 
 .circle {
-  width: 20rem;
-  height: 20rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
   position: fixed;
   z-index: 5;
-  background-color: rebeccapurple;
-  left: 60%;
+  background-color: #FFF1E6;
+  right: 2%;
+  top: 40%;
+}
+
+.circle4 {
+  width: 9rem;
+  height: 9rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 5;
+  background-color: #FFF1E6;
+  right: 30%;
+  top: 20%;
+}
+
+.circle2 {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 5;
+  background-color: #BEE1E6;
+  right: 2%;
+  bottom: 10%;
+  right: 40%;
+}
+
+.circle3 {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 5;
+  background-color: #FAD2E1;
+  left: 18%;
+  top: 2%;
 }
 
 .content {
@@ -636,7 +687,7 @@ button {
   z-index: 6;
 }
 
-.websites {
+.websites, .apps, .designs {
   z-index: 6;
 }
 

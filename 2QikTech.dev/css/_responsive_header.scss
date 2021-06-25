@@ -1,5 +1,6 @@
 @media only screen and (max-width: 731px) {
     .header_push{
+        z-index: 10;
         position: fixed;
         display: flex;
         justify-content: center;
@@ -10,8 +11,10 @@
         top: 0%;
         margin: 0;
         left: 0;
-        background-color: #FFF1E6;
-        filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2));        
+        background: linear-gradient(90deg, rgba(255, 241, 230, 0.6) 0%, rgba(255, 241, 230, 0.4) 100%);
+        backdrop-filter: blur(100px);
+        // background-color: #FFF1E6;
+        // filter: drop-shadow(0px 4px 3px rgba(0, 0, 0, 0.2));
     }    
 
 
@@ -41,18 +44,27 @@
             }
             .navigator_1{
                 background-color: #FFF1E6;
+                background: linear-gradient(90deg, rgba(255, 241, 230, 0.6) 0%, rgba(255, 241, 230, 0.4) 100%);
+                backdrop-filter: blur(100px);
+                
                 flex: 1;
                 height: 100%;
                 
             }
             .navigator_2{
                 background-color: #FAD2E1;
+                background: linear-gradient(80.7deg, rgba(250, 210, 225, 0.6) 3.48%, rgba(250, 210, 225, 0.3) 100%);
+                backdrop-filter: blur(100px);
+
                 flex: 1;
                 height: 100%;
 
             }
             .navigator_3{
                 background-color: #BEE1E6;
+                background: linear-gradient(80.7deg, rgba(190, 225, 230, 0.6) 3.48%, rgba(190, 225, 230, 0.3) 100%);
+                backdrop-filter: blur(100px);
+
                 flex: 1;
                 height: 100%;
 
@@ -64,6 +76,7 @@
 }
 
 .navigator{
+    z-index: 10;
     a{
         text-decoration: none;
         color: #000;

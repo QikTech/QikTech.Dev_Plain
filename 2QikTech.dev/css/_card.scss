@@ -53,11 +53,14 @@
             .text_container_List{
               height: auto;
               width: 80%;
-              border: 1px solid #c4c4c4;
+              // border: 1px solid #c4c4c4;
+              background: linear-gradient(90deg, rgba(255, 241, 230, 0.18) 0%, rgba(255, 241, 230, 0.18) 100%);
+              border: 0.5px solid #c4c4c4;
+
               border-radius: 20px 20px 0px 0px;
               
                 .card_h2{
-                  margin-top: 0%;
+                  margin-top: -0.1%;
                   margin-left: -1px;
                   text-align: center;
                   padding-top: 2%;

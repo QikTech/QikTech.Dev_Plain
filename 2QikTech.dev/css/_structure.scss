@@ -18,10 +18,9 @@
         left: 15.5vw;
         top: 15vh;
         // background: #FFF1E6;
-        background: linear-gradient(80.7deg, rgba(255, 255, 255, 0.6) 3.48%, rgba(255, 255, 255, 0.3) 100%);
-        backdrop-filter: blur(80px);
-        /* Note: backdrop-filter has minimal browser support */
-        
+        background: linear-gradient(90deg, rgba(255, 241, 230, 0.18) 0%, rgba(255, 241, 230, 0.18) 100%);
+        backdrop-filter: blur(20px);
+        border: 0.5px solid #FFFFFF;
         border-radius: 20px;
         // scroll-snap-type: y mandatory;
         // scroll-padding-top: 75px;
@@ -38,6 +37,8 @@
         // background: #FAD2E1;
         // background: linear-gradient(80.7deg, rgba(255, 255, 255, 0.6) 3.48%, rgba(255, 255, 255, 0.3) 100%);
         background: linear-gradient(80.7deg, rgba(250, 210, 225, 0.6) 3.48%, rgba(250, 210, 225, 0.3) 100%);
+        backdrop-filter: blur(20px);
+        border: 0.5px solid #FFFFFF;
         border-radius: 20px;
         overflow-y: scroll;
         // scroll-snap-type: y mandatory;
@@ -56,7 +57,8 @@
         top: 15vh;
         // background: #BEE1E6;
         background: linear-gradient(80.7deg, rgba(190, 225, 230, 0.6) 3.48%, rgba(190, 225, 230, 0.3) 100%);
-                backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+        border: 0.5px solid #FFFFFF;
         border-radius: 20px;
         overflow-y: scroll;
         // scroll-snap-type: y mandatory;
@@ -70,15 +72,5 @@
   }
   .app_button{
     background: #FAD2E1;
-  }
-
-  .app_button_color{
-    background: #FAD2E1;
-  
-  
-  }
-  .design_button_color{
-    background: #BEE1E6;
-  
   }
 
