@@ -6,6 +6,7 @@
 @import "responsive";
 @import "responsive_header";
 @import "992_responsive";
+@import "circles";
 
 // font-family: 'Poppins', sans-serif;
 // font-family: 'Sulphur Point', sans-serif;
@@ -16,8 +17,6 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
-
 }
 
     // #CUSTOM SCROLLBAR
@@ -34,13 +33,13 @@ body{
   .scroller::-webkit-scrollbar {
     width: 0.3vw;
   }   
-  .scroller::-webkit-scrollbar-track {
-    // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  }   
-  .scroller::-webkit-scrollbar-thumb {
-    // background-color: #333;
-    // outline: 1px solid slategrey;
-  }
+  // .scroller::-webkit-scrollbar-track {
+  //   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  // }   
+  // .scroller::-webkit-scrollbar-thumb {
+  //   background-color: #333;
+  //   outline: 1px solid slategrey;
+  // }
 
 
 pre{

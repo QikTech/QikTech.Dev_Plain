@@ -6,6 +6,9 @@
     scroll-snap-type: y mandatory;
     scroll-padding-top: 120px;
     overflow-y: scroll;
+    // background: linear-gradient(90.98deg, #FFFFFF 0.48%, rgba(255, 241, 230, 0.3) 106.27%);
+    // background-color: #fff;
+
 
     .websites{
         position: relative;
@@ -14,7 +17,11 @@
         height: 80vh;
         left: 15.5vw;
         top: 15vh;
-        background: #FFF1E6;
+        // background: #FFF1E6;
+        background: linear-gradient(80.7deg, rgba(255, 255, 255, 0.6) 3.48%, rgba(255, 255, 255, 0.3) 100%);
+        backdrop-filter: blur(80px);
+        /* Note: backdrop-filter has minimal browser support */
+        
         border-radius: 20px;
         // scroll-snap-type: y mandatory;
         // scroll-padding-top: 75px;
@@ -28,7 +35,9 @@
         height: 75vh;
         left: 15.5vw;
         top: 15vh;
-        background: #FAD2E1;
+        // background: #FAD2E1;
+        // background: linear-gradient(80.7deg, rgba(255, 255, 255, 0.6) 3.48%, rgba(255, 255, 255, 0.3) 100%);
+        background: linear-gradient(80.7deg, rgba(250, 210, 225, 0.6) 3.48%, rgba(250, 210, 225, 0.3) 100%);
         border-radius: 20px;
         overflow-y: scroll;
         // scroll-snap-type: y mandatory;
@@ -45,7 +54,9 @@
         // top: 227px;
         left: 15.5vw;
         top: 15vh;
-        background: #BEE1E6;
+        // background: #BEE1E6;
+        background: linear-gradient(80.7deg, rgba(190, 225, 230, 0.6) 3.48%, rgba(190, 225, 230, 0.3) 100%);
+                backdrop-filter: blur(20px);
         border-radius: 20px;
         overflow-y: scroll;
         // scroll-snap-type: y mandatory;

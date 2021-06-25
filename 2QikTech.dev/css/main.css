@@ -62,7 +62,10 @@
   height: 80vh;
   left: 15.5vw;
   top: 15vh;
-  background: #FFF1E6;
+  background: linear-gradient(80.7deg, rgba(255, 255, 255, 0.6) 3.48%, rgba(255, 255, 255, 0.3) 100%);
+  -webkit-backdrop-filter: blur(80px);
+          backdrop-filter: blur(80px);
+  /* Note: backdrop-filter has minimal browser support */
   border-radius: 20px;
   overflow-y: scroll;
 }
@@ -74,7 +77,7 @@
   height: 75vh;
   left: 15.5vw;
   top: 15vh;
-  background: #FAD2E1;
+  background: linear-gradient(80.7deg, rgba(250, 210, 225, 0.6) 3.48%, rgba(250, 210, 225, 0.3) 100%);
   border-radius: 20px;
   overflow-y: scroll;
 }
@@ -86,7 +89,9 @@
   height: 75vh;
   left: 15.5vw;
   top: 15vh;
-  background: #BEE1E6;
+  background: linear-gradient(80.7deg, rgba(190, 225, 230, 0.6) 3.48%, rgba(190, 225, 230, 0.3) 100%);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   border-radius: 20px;
   overflow-y: scroll;
 }
@@ -120,6 +125,7 @@
   width: 70vw;
   height: auto;
   color: #1E1E1E;
+  z-index: 6;
 }
 
 .card .img_container {
@@ -200,7 +206,6 @@
   color: #000000;
   border-radius: 20px 20px 0px 0px;
   border: 1px solid #c4c4c4;
-  z-index: 5;
 }
 
 .myimg {
@@ -290,7 +295,6 @@
 hr {
   margin-top: 5%;
   width: 30%;
-  background: white;
   height: 0px;
 }
 
@@ -611,6 +615,29 @@ button {
   .navigator .navigator_push {
     margin-bottom: 0%;
   }
+}
+
+.circle {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 5;
+  background-color: rebeccapurple;
+  left: 60%;
+}
+
+.content {
+  background: -webkit-gradient(linear, left top, right top, color-stop(31.77%, #FFF1E6), color-stop(52.6%, #FAD2E1), to(#BEE1E6));
+  background: linear-gradient(90deg, #FFF1E6 31.77%, #FAD2E1 52.6%, #BEE1E6 100%);
+}
+
+.card {
+  z-index: 6;
+}
+
+.websites {
+  z-index: 6;
 }
 
 body {

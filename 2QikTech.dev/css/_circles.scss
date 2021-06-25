@@ -1,0 +1,26 @@
+.circle{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 5;
+    background-color: rebeccapurple;
+    left: 60%;
+}
+
+    .content{
+        // z-index: 1;
+    background: linear-gradient(90deg, #FFF1E6 31.77%, #FAD2E1 52.6%, #BEE1E6 100%);
+
+
+    }
+
+    .card{
+        z-index: 6;
+        // background-color: salmon;
+
+    }
+    .websites{
+        z-index: 6;
+
+    }
