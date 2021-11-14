@@ -336,14 +336,17 @@ button {
   .content .websites {
     width: 100vw;
     left: 20vw;
+    background-color: #fff;
   }
   .content .apps {
     width: 100vw;
     left: 20vw;
+    background-color: #fff;
   }
   .content .designs {
     width: 100vw;
     left: 20vw;
+    background-color: #fff;
   }
   .text_container_button {
     margin-right: 0;
@@ -393,6 +396,7 @@ button {
     width: 100vw;
     margin-left: 0%;
     margin-bottom: 40%;
+    background-color: #fff;
   }
   .card .img_container {
     display: -webkit-box;
@@ -489,6 +493,7 @@ button {
   .content {
     height: auto;
     width: 100vw;
+    background-color: #fff;
   }
   .content .websites {
     margin-top: 0vh;
@@ -574,9 +579,7 @@ button {
     top: 0%;
     margin: 0;
     left: 0;
-    background-color: #BEE1E6;
-    -webkit-backdrop-filter: blur(100px);
-            backdrop-filter: blur(100px);
+    background-color: #FFF1E6;
   }
   .mobile_container .mobile_left .navigator {
     top: auto;
@@ -595,7 +598,7 @@ button {
             justify-content: space-between;
     font-size: 18px;
     border-radius: 20px 20px 0px 0px;
-    background: #BEE1E6;
+    background: #fff;
   }
   .mobile_container .mobile_left .navigator .navigator_push {
     display: -webkit-box;
